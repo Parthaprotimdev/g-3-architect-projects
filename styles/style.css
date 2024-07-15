@@ -97,6 +97,28 @@ main > section {
 #Quick-list {
   font-weight: 500;
 }
+
+/* feature sections  */
+.feature {
+  gap: 140px;
+}
+#feature-section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.feature-card {
+  padding: 30px;
+  box-shadow: 0 4px 30px 0;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.feature-card .feature-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .facts-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
